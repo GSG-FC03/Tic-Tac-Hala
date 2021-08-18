@@ -1,10 +1,11 @@
 # Tic-Tac-Hala
+- [Hala Abu Salim](https://github.com/HalaSalim77).
 # Game Describion 
 Tic-tac-toe, noughts and crosses, or Xs and Os/“X’y O’sies”, is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner
 
 
 # The way of installation the game and  to run it locally.
-1- Press at the link: [Github Book App repo](https://github.com/GSG-FC03/Tic-Tac-Hala.git).<br>
+1- Press at the link: [Github repo](https://github.com/GSG-FC03/Tic-Tac-Hala.git).<br>
 2- Click at code button.<br>
 3- Clone the repository to your device.<br>
 4- Open gitBash.<br>
