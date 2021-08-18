@@ -5,7 +5,7 @@ Tic-tac-toe, noughts and crosses, or Xs and Os/“X’y O’sies”, is a paper-
 
 
 # The way of installation the game and  to run it locally.
-1- Press at the link: [Github Game repo](https://github.com/GSG-FC03/Tic-Tac-Hala.git).<br>
+1- Press at the link: [Github repo](https://github.com/GSG-FC03/Tic-Tac-Hala.git).<br>
 2- Click at code button.<br>
 3- Clone the repository to your device.<br>
 4- Open gitBash.<br>
