@@ -5,5 +5,5 @@ let startButton = document.querySelector(".Start-button");
 startButton.addEventListener("click", moveToPlayPage); 
 //Function  
 function moveToPlayPage() {
-  window.location.href = "index.html";
+  window.location.href = "play.html";
 }
