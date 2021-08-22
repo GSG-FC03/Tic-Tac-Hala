@@ -85,4 +85,61 @@ let playerXIcon = "fas fa-times", //class name of font awesome cross icon
       playerSign = "X"; //suppose player will be x
     }
   }
-  
+  function getIdVal(classname) {
+    return document.querySelector(".box" + classname).id;
+  }
+  function checkIdSign(val1, val2, val3, sign) {
+    if (
+      getIdVal(val1) == sign &&
+      getIdVal(val2) == sign &&
+      getIdVal(val3) == sign
+    ) {
+      return true;
+    }
+  }
+  //  Showing result box with winner sign (X or O)
+  function selectWinner() {
+    if (
+      checkIdSign(1, 2, 3, playerSign) ||
+      checkIdSign(4, 5, 6, playerSign) ||
+      checkIdSign(7, 8, 9, playerSign) ||
+      checkIdSign(1, 4, 7, playerSign) ||
+      checkIdSign(2, 5, 8, playerSign) ||
+      checkIdSign(3, 6, 9, playerSign) ||
+      checkIdSign(1, 5, 9, playerSign) ||
+      checkIdSign(3, 5, 7, playerSign)
+    ) {
+      runBot = false;
+      bot(runBot);
+      setTimeout(() => {
+        resultBox.classList.add("show");
+        playBoard.classList.remove("show");
+      }, 700);
+      wonText.innerHTML = `Player <p>${playerSign}</p> won the game!`;
+    } else {
+      if (
+        getIdVal(1) != "" &&
+        getIdVal(2) != "" &&
+        getIdVal(3) != "" &&
+        getIdVal(4) != "" &&
+        getIdVal(5) != "" &&
+        getIdVal(6) != "" &&
+        getIdVal(7) != "" &&
+        getIdVal(8) != "" &&
+        getIdVal(9) != ""
+      ) {
+        runBot = false;
+        bot(runBot);
+        setTimeout(() => {
+          resultBox.classList.add("show");
+          playBoard.classList.remove("show");
+        }, 700);
+        wonText.textContent = "Match has been drawn!";
+      }
+    }
+  }
+
+  //  Realoding current page on the replay button click
+  replayBtn.onclick = () => {
+    window.location.reload();
+  };
