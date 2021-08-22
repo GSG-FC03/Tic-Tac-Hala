@@ -1,5 +1,8 @@
 # Tic-Tac-Hala
 - [Hala Abu Salim](https://github.com/HalaSalim77).
+
+# Figma Link
+-[Figma](https://www.figma.com/file/lPMJ5hz0sIjMoE8vy0BHAm/Tic-Tac-Toe-landing-Page?node-id=0%3A1)
 # Game Describion 
 Tic-tac-toe, noughts and crosses, or Xs and Os/“X’y O’sies”, is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner
 
