@@ -17,3 +17,21 @@ window.onload = () => {
     allBox[i].setAttribute("onclick", "clickedBox(this)");
   }
 };
+
+//add on click on btn selectbox x
+selectBtnX.onclick = () => {
+  selectBox.classList.add("hide");
+  playBoard.classList.add("show");
+};
+
+//add on click on btn selectbox o 
+selectBtnO.onclick = () => {
+  selectBox.classList.add("hide");
+  playBoard.classList.add("show");
+  players.setAttribute("class", "players active player");
+};
+
+let playerXIcon = "fas fa-times", //class name of font awesome cross icon
+  playerOIcon = "far fa-circle", //class name of fontawesome cricle icon
+  playerSign = "X",
+  runBot = true;
