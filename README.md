@@ -34,3 +34,6 @@ Tic-tac-toe, noughts and crosses, or Xs and Os/“X’y O’sies”, is a paper-
 * Html ➙ To make the structure of the website.
 * Css ➙ To add colors, position ..etc to the elements.
 * JS ➙ To the make the page more interactive.
+
+# NOTE:
+I don't have enough time left to do Responsive Part , when you open the game please choose iphone X ,Thanks .
